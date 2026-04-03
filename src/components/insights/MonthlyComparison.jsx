@@ -9,7 +9,7 @@ export function MonthlyComparison({ months, income, expenses }) {
         Monthly income vs expenses
       </div>
       <div style={{ fontSize: "11px", color: "var(--text-tertiary)", marginBottom: "20px" }}>
-        6-month comparison
+        monthly comparison
       </div>
       <div style={{ overflowX: "auto" }}>
         <table style={{ width: "100%", borderCollapse: "collapse", minWidth: "400px" }}>
@@ -40,7 +40,7 @@ export function MonthlyComparison({ months, income, expenses }) {
               return (
                 <tr key={month} style={{ borderTop: "1px solid var(--border)" }}>
                   <td style={{ padding: "10px 12px", fontSize: "13px", color: "var(--text-primary)", fontWeight: 500 }}>
-                    {month} 2024
+                    {month} 2026
                   </td>
                   <td
                     style={{

@@ -9,7 +9,7 @@ export function BalanceTrendChart({ data, labels }) {
         Balance trend
       </div>
       <div style={{ fontSize: "11px", color: "var(--text-tertiary)", marginBottom: "16px" }}>
-        6-month overview
+        monthly overview
       </div>
       <LineChart data={data} labels={labels} color="#818cf8" />
     </Card>

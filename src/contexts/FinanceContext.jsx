@@ -58,7 +58,7 @@ export function FinanceProvider({ children }) {
       },
       {
         title: "Monthly balance",
-        value: formatCurrency(MONTHLY_BALANCE[5] - MONTHLY_BALANCE[4]),
+        value: formatCurrency(MONTHLY_BALANCE[2] - MONTHLY_BALANCE[1]),
         sub: "vs. last month",
         color: "251,191,36",
         icon: "📊",

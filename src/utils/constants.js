@@ -21,7 +21,7 @@ export const CATEGORIES = [
   "Education",
 ];
 
-export const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"];
+export const MONTHS = ["Jan", "Feb", "Mar", "Apr"];
 
 export const NAV_ITEMS = [
   { id: "overview", icon: "⊞", label: "Overview" },
